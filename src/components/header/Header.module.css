@@ -4,9 +4,19 @@
     padding: 42px 5%;
 }
 .header__left{
-    width: 50px;
-    height: 50px;
+    display: flex;
+}
+.header__left > h2{
+    margin-top: 20px;
+}
+.header__left > img{
+    width: 65px;
+    height: 65px;
 }
 .header__right{
     display: flex;
+}
+.user{
+    width: 30px;
+    height: 30px;
 }
