@@ -6,6 +6,7 @@ function Header() {
       <div className={css.container}>
         <div className={css.header__left} >
             <img src="./img/logo.svg" alt="" />
+            <h2>CasHome</h2>
         </div>
         <div className={css.header__right}>
             <p>About us</p>
@@ -15,9 +16,7 @@ function Header() {
                   <option value="#">Русский</option>
                   <option value="#">English</option>
               </select>
-              <button>
-                  Войти
-              </button>
+              <img src="./img/user.svg" alt="" className={css.user}/>
         </div>
       </div>
     );
