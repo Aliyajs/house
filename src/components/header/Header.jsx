@@ -9,9 +9,10 @@ function Header() {
             <h2>CasHome</h2>
         </div>
         <div className={css.header__right}>
-            <p>About us</p>
-            <p>Contacts</p>
-            <select name="" id="">
+          <p className={css.text}>About us</p>
+          <p className={css.text}>Contacts</p>
+        <img className={css.img} src="https://image.flaticon.com/icons/png/512/1246/1246466.png" alt="" />
+            <select  className={css.select} id="">
                   <option value="#">Кыргызча</option>
                   <option value="#">Русский</option>
                   <option value="#">English</option>

@@ -8,10 +8,9 @@ function Footer() {
                 <div className={css.container}>
                     <div className={css.box}>
                        <img src="./img/logo.svg"/>
-                       <h1 className={css.text}>RP</h1>
-                       <p className={css.text}>company</p>
+                       <h1 className={css.text}>CasHome</h1>
                     </div>
-                    <p>RP - is an online service for the sale <br />and rental of real estate in Bishkek and <br />Kyrgyzstan. We help to buy or rent apartments, <br />houses, offices all over the country. Find the best <br />options, quickly sell or rent your property with us! </p>
+                    <p> <b>CasHome</b> - is an online service for the sale <br />and rental of real estate in Bishkek and <br />Kyrgyzstan. We help to buy or rent apartments, <br />houses, offices all over the country. Find the best <br />options, quickly sell or rent your property with us! </p>
                     <div>
                        <h3 className={css.link}>SOCIAL MEDIA</h3>
                        <a href="#"><img src="./img/whatsapp.svg"className={css.img}/></a>
