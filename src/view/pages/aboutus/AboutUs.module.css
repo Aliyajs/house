@@ -1,0 +1,83 @@
+.about{
+    padding: 5%;
+}
+.about > h1{
+    font-weight: 600;
+    font-size: 35px;
+}
+.image{
+    width: 400px;
+    height: 450px;
+}
+.container{
+    display: flex;
+    margin-top: 60px;
+}
+.text{
+    margin-left: 65px;
+    font-size: 20px;
+    font-weight: 450;
+    margin-top: 45px;
+    line-height: 40px;
+}
+.container_box{
+    padding: 5% 0;
+    margin-top: 65px;
+}
+.main{
+    font-weight: 900;
+    font-size: 70px;
+}
+.work{
+    font-weight: 500;
+    font-size: 20px;
+}
+.box{
+    display: flex;
+    margin: 70px 65px;
+}
+.boxs{
+    margin-left: 70px;
+    margin-top: 40px;
+}
+img{
+    width: 350px;
+    height: 350px;
+}
+.name{
+    font-weight: 700;
+    font-size: 30px;
+}
+.test{
+    font-weight: 545;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 45px;
+}
+.container_react{
+    display: flex;
+    justify-content: space-around;
+}
+.number{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 45px;
+}
+.wrapper{
+    display: flex;
+    margin-top: 10px;
+}
+.images{
+    width: 25px;
+    height: 25px;
+}
+.tell{
+    font-weight: 450;
+    font-size: 17px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.url{
+    width: 500px;
+    height: 400px;
+}
