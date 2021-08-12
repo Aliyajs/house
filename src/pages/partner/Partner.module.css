@@ -1,0 +1,26 @@
+.box{
+    display: flex;
+}
+.slider{
+    width: 800px;
+    height: 350px;
+    background: #fff;
+    margin: 65px auto;
+}
+.container{
+    padding: 45px;
+}
+.img{
+    width: 165px;
+    height: 165px;
+}
+.text{
+    font-weight: 570;
+    font-size: 23px;
+    margin-top: 12px;
+    text-align: center;
+}
+.test{
+    margin-top: 13px;
+    text-align: center;
+}

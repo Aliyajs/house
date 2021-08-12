@@ -1,0 +1,64 @@
+.container{
+    margin-top: 70px;
+}
+.auto{
+    margin: 0 auto;
+    background: #EEE9E9;
+    width: 400px;
+    height: 350px;
+    padding: 50px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+.name{
+    margin-top: 30px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+}
+.password{
+    margin-top: 15px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+}
+.btn{
+    margin-top: 15px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    background: orange;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.forgot{
+    text-decoration: none;
+    margin-left: 80px;
+}
+.register{
+    margin: 0 auto;
+    background: #EEE9E9;
+    width: 400px;
+    height: 50px;
+    padding: 35px;
+    align-items: center;
+    display: flex;
+}
+.text{
+    font-size: 15px;
+    padding-right: 10px;
+}
+.regis{
+    text-decoration: none;
+}

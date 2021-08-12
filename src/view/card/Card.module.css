@@ -1,0 +1,19 @@
+.container{
+    margin: 50px;
+}
+.card{
+    width: 300px;
+    height: 390px;
+    background: #F0F3FD;
+    padding: 20px;
+}
+.card__img{
+    width: 250px;
+    height: 250px;
+}
+.card__text{
+    color: #3C4563;
+}
+.deteil{
+    text-decoration: none;
+}
