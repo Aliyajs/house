@@ -6,7 +6,9 @@ function Nav() {
     return (
 <div className={css.container}>
         <div className={css.header__left} >
-            <img src="./img/logo.svg" alt="" />
+          <Link to="/">
+            <img className={css.logo} src="./img/logo.svg" alt="" />
+          </Link>
             <h2>CasHome</h2>
         </div>
         <div className={css.header__right}>
@@ -15,9 +17,6 @@ function Nav() {
           </Link>
           <Link to="/partners">
             <p className={css.text}>Партнеры</p>
-          </Link>
-          <Link to="/service">
-            <p className={css.text}>Cервис</p>
           </Link>
           <Link to="/help">
             <p className={css.text}>Помощь</p>

@@ -8,7 +8,7 @@ function Auto() {
         <h3 className={css.title}>CasHome</h3>
         <div className={css.search}>
           <input className={css.name} type="text" placeholder="Телефон, имя пользователя или эл.адрес" />
-          <input className={css.password} type="text" placeholder="Пароль" />
+          <input className={css.password} type="password" placeholder="Пароль" />
           <br />
           <button className={css.btn}>Войти</button>
         </div>

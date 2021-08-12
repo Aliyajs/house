@@ -10,7 +10,7 @@
 .header__left > h2{
     margin-top: 20px;
 }
-.header__left > img{
+.logo{
     width: 65px;
     height: 65px;
 }
@@ -38,8 +38,16 @@
     margin-top: 15px;
 }
 .select{
+    font-size: 17px;
+    line-height: 17px;
     border: none;
     outline: none;
+    width: 130px;
+    height: 40px;
+    background: #F0F3FD;
+    border-radius: 25px;
+    padding: 8px;
+    margin-top: 10px;
 }
 .user{
     width: 30px;

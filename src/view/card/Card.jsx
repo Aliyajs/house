@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import css from './Card.module.css'
 
 function Card() {
@@ -12,7 +13,9 @@ function Card() {
             <p>3-ком.кв.,600м2,35 этаж из 50</p>
             <p>г.Бишкек</p>
             </div>
-            <a className={css.deteil} href="">Подробнее -></a>
+            <Link to="/cardmap">
+               <a className={css.deteil} href="">Подробнее -></a>
+            </Link>
             </div>
         </div>
     )

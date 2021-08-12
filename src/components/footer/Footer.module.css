@@ -61,6 +61,8 @@
 .btn{
     width: 80px;
     height: 45px;
+    background: orange;
+    border: none;
 }
 .end{
     text-align: center;

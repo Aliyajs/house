@@ -1,17 +1,17 @@
 .help{
-    /* margin-left: 100px; */
+    margin: 100px;
 }
 .helps{
     font-weight: 600;
-    font-size: 17px;
+    font-size: 30px;
 }
 .register{
     padding-top: 25px;
 }
 .reg{
     font-weight: 700;
-    font-size: 15px;
-    line-height: 15px;
+    font-size: 20px;
+    padding-top: 20px;
 }
 .text{
     font-weight: 500;

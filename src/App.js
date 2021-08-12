@@ -9,6 +9,7 @@ import Card from "./view/card/Card";
 import Main from "./view/main/Main";
 import Partners from "./view/pages/partners/Partners";
 import Help from "./view/pages/help/Help";
+import CardMap from "./view/cardMap/CardMap";
 
 function App() {
   return (
@@ -19,20 +20,20 @@ function App() {
           <Route path="/auto">
             <Auto />
           </Route>
+          <Route path="/aboutus">
+            <AboutUs />
+          </Route>
           <Route path="/partners">
             <Partners />
           </Route>
           <Route path="/help">
             <Help />
           </Route>
-          <Route path="/aboutus">
-            <AboutUs />
+          <Route path="/cardmap">
+            <CardMap />
           </Route>
           <Route path="/">
             <Header />
-            <Main />
-          </Route>
-          <Route path="/">
             <Main />
           </Route>
           <Route path="*">
