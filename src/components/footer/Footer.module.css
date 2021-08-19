@@ -3,9 +3,8 @@
 }
 .footer_box{
     display: flex;
-    margin-top: 280px;
+    margin-top: 160px;
     padding-top: 55px;
-
     height: 400px;
 }
 .container{

@@ -54,6 +54,7 @@
     padding: 35px;
     align-items: center;
     display: flex;
+    margin-bottom: 20px;
 }
 .text{
     font-size: 15px;
@@ -61,4 +62,16 @@
 }
 .regis{
     text-decoration: none;
+}
+.help{
+    margin: 0 auto;
+    background: #eee9e9;
+    width: 400px;
+    height: 50px;
+    padding: 20px 30px;
+    align-items: center;
+}
+.text__help{
+    text-decoration: none;
+    outline: none;
 }

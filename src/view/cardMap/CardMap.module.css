@@ -1,0 +1,6 @@
+.map{
+    margin: 0 auto;
+    width: calc(100vw - 70%);
+    height: 50vh;
+    margin-top: 50px;
+}

@@ -24,3 +24,33 @@
     margin-top: 13px;
     text-align: center;
 }
+.name{
+    padding: 5%;
+    font-size: 58px;
+    font-weight: 650;
+    color: #4C4D4F;
+}
+.boxs{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 5%;
+}
+.wrapper{
+    margin-left: 50px;
+}
+.title{
+    font-weight: 600;
+    font-size: 35px;
+    color: #4C4D4F;
+}
+.tema{
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 35px;
+    color: #4C4D4F;
+    margin-top: 25px;
+}
+.images{
+    width: 500px;
+    height: auto;
+}

@@ -7,7 +7,7 @@ function Footer() {
       <div className={css.footer_box}>
         <div className={css.container}>
           <div className={css.box}>
-            <img src="./img/logo.svg" />
+            <img src="/img/logo.svg" />
             <h1 className={css.text}>CasHome</h1>
           </div>
           <p>
@@ -20,25 +20,25 @@ function Footer() {
           <div>
             <h3 className={css.link}>SOCIAL MEDIA</h3>
             <a href="#">
-              <img src="./img/whatsapp.svg" className={css.img} />
+              <img src="/img/whatsapp.svg" className={css.img} />
             </a>
             <a target="_blank" href="https://www.instagram.com/house_kg/?hl=ru">
-              <img src="./img/instagram.svg" className={css.img} />
+              <img src="/img/instagram.svg" className={css.img} />
             </a>
             <a
               target="_blank"
               href="https://telegramchannels.me/ru/channels/deep_housesity"
             >
-              <img src="./img/telegram.svg" className={css.img} />
+              <img src="/img/telegram.svg" className={css.img} />
             </a>
             <a
               target="_blank"
               href="https://www.youtube.com/channel/UCvk3xGUIThJMfKwZyNI8Krw"
             >
-              <img src="./img/youtube.svg" className={css.img} />
+              <img src="/img/youtube.svg" className={css.img} />
             </a>
             <a target="_blank" href="https://www.facebook.com/house.in.kg/">
-              <img src="./img/facebook.svg" className={css.img} />
+              <img src="/img/facebook.svg" className={css.img} />
             </a>
           </div>
         </div>

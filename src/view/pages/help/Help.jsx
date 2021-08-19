@@ -16,6 +16,7 @@ function Help() {
           личный кабинет.
         </p>
       </div>
+      <hr className={css.line} />
       <div className={css.auto}>
         <p className={css.reg}>
           Какие преимумещества личного кабинета и авторизации?
@@ -28,6 +29,7 @@ function Help() {
           синхронизация: избранных объявлений, добавленных объявлений.
         </p>
       </div>
+      <hr className={css.line} />
       <div className={css.regulation}>
         <p className={css.reg}>Как добавить объявление и есть ли правила?</p>
         <p className={css.text}>
@@ -48,6 +50,7 @@ function Help() {
           указан город, в котором фактически находится предложение (товар).
         </p>
       </div>
+      <hr className={css.line} />
       <div>
         <p className={css.reg}>Как удалить объявление</p>
         <p className={css.text}>
@@ -57,6 +60,7 @@ function Help() {
           подаче объявления.
         </p>
       </div>
+      <hr className={css.line} />
       <div>
         <p className={css.reg}>Почему я не могу найти свое объявление</p>
         <p className={css.text}>
@@ -66,6 +70,7 @@ function Help() {
           обнаруженными нарушениями наших правил.
         </p>
       </div>
+      <hr className={css.line} />
       <div>
         <p className={css.reg}>Почему я не могу добавить фото к обьявлению</p>
         <p className={css.text}>

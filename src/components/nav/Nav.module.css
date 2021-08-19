@@ -18,6 +18,10 @@
     display: flex;
     grid-gap: 14px;
 }
+.header__right a {
+    text-decoration: none;
+    color: #000;
+}
 .text{
     font-size: 17px;
     line-height: 17px;
@@ -27,26 +31,6 @@
     padding-top: 13px;
     width: 130px;
     height: 40px;
-    margin-top: 10px;
-}
-.option{
-    display: flex;
-}
-.img {
-    width: 30px;
-    height: 30px;
-    margin-top: 15px;
-}
-.select{
-    font-size: 17px;
-    line-height: 17px;
-    border: none;
-    outline: none;
-    width: 130px;
-    height: 40px;
-    background: #F0F3FD;
-    border-radius: 25px;
-    padding: 8px;
     margin-top: 10px;
 }
 .user{

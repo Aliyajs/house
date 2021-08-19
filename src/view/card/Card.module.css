@@ -1,5 +1,37 @@
+.item{
+    display: flex;
+    justify-content: center;
+}
+.first{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+}
+.search{
+    border: none;
+    outline: none;
+    padding: 10px; 
+}
+.btn{
+    padding: 10px 20px;
+    color: #fff;
+    background: orange;
+    border: none;
+    outline: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
 .container{
-    padding: 50px;
+    margin: 100px;
+    display: inline-block;
+    margin-top: 80px;
+}
+.boxs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 .card{
     width: 300px;
@@ -13,7 +45,11 @@
 }
 .card__text{
     color: #3C4563;
+    text-align: center;
 }
 .deteil{
     text-decoration: none;
+}
+.deteil p{
+    margin-left: 33%;
 }

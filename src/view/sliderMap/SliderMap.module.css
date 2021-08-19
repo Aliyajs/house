@@ -1,0 +1,11 @@
+.slider{
+    width: 600px;
+    height: 400px;
+    background: #000;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+.slider img{
+    width: 600px;
+    height: 400px;
+}
