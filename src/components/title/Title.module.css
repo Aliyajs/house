@@ -1,0 +1,25 @@
+.item{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.first{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+}
+.search{
+    border: none;
+    outline: none;
+    padding: 10px; 
+}
+.btn{
+    padding: 10px 20px;
+    color: #fff;
+    background: orange;
+    border: none;
+    outline: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}

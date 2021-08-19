@@ -1,0 +1,87 @@
+.container{
+    padding: 0 5% ;
+}
+.title{
+    color: #393F44;
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.main{
+    color: #393F44;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 205px;
+}
+.image{
+    margin: 15px 85px;
+}
+.name{
+    text-align: center;
+}
+.text{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 35px;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.services img{
+    width: 120px;
+    height: 120px;
+}
+.build{
+    position: relative;
+}
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    background: #000;
+    margin-top: 45px;
+}
+.slider img{
+    width: 800px;
+    height: 400px;
+}
+.kons{
+    margin-top: 180px;
+}
+.kon{
+    margin-top: 190px;
+} 
+.services__two{
+    display: flex;
+    grid-gap: 50px;
+    flex-wrap: wrap;
+}
+.services__two img{
+    width: 120px;
+    height: 120px;
+}
+.conference{
+    display: flex;
+    margin-top: 45px;
+}
+.hall{
+    width: 600px;
+    height: 400px;
+    margin-right: 25px;
+}
+.wrapper{
+   display: flex;
+   flex-wrap: wrap;
+   grid-gap: 50px;
+   margin-top: 30px;
+   margin-left: 60px;
+}
+.wrapper_img{
+    width: 300px;
+    height: 200px;
+    flex-wrap: wrap;
+}

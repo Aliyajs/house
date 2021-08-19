@@ -1,16 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import css from './Nav.module.css';
 
 
 
-
 function Nav() {
-    return (
+      return (
         <div className={css.container}>
         <div className={css.header__left} >
             <Link to="/" >
-              <img className={css.image}  src="./img/logo.svg"/>
+              <img className={css.image}  src="/img/logo.svg"/>
             </Link>
             <h2>CasHome</h2>
         </div>
@@ -21,24 +20,30 @@ function Nav() {
           <Link to="/partner">
             <p className={css.text}>Партнеры</p>
           </Link>
+          <Link to="/business_center">
+            <p className={css.text}>Бизнес-центр</p>
+          </Link>
+          <Link to="/barter">
+            <p className={css.text}>Бартер</p>
+          </Link>
           <Link to="/help">
             <p className={css.text}>Помощь</p>
           </Link>
-          <div className={css.option}>
-            <img className={css.img} src="https://image.flaticon.com/icons/png/512/1246/1246466.png" alt="" />
-            <select  className={css.select}>
-                <option value="#">Кыргызча</option>
-                <option value="#">Русский</option>
-                <option value="#">English</option>
-            </select>
-          </div>
-          <div>
-              <Link to="/auto">
-                <img src="./img/user.svg" alt="" className={css.user}/>
+          <Link to="/auto">
+                 <img src="/img/user.svg" alt="" className={css.user}/>
               </Link>
+            {/* {
+              user === null ? <NavLink  to="/auto">
+              <img src="/img/user.svg" alt="" className={css.user}/>
+              
+             : <p>dsdfghj</p>
+             </NavLink>  
+            } */}
+             
+             
+
           </div>
         </div>
-      </div>
     );
 }
  export default Nav;

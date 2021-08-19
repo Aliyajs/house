@@ -1,0 +1,52 @@
+.name{
+    padding: 5%;
+}
+.name h1{
+    font-size: 40px;
+    line-height: 35px;
+    font-weight: 750;
+    color: #333333;
+}
+.box{
+    display: flex;
+    margin-top: 100px;
+}
+.text{
+    font-weight: 500;
+    font-size: 20px;
+    color: #333333;
+}
+.text2{
+    font-weight: 500;
+    font-size: 20px;
+    color: #333333;
+    margin-left: 45px;
+}
+.box img{
+    width: 500px;
+    height: auto;
+}
+.next{
+    font-weight: 500;
+    font-size: 20px;
+    color: #333333;
+    margin-top: 100px;
+}
+
+
+.divide{
+    display: flex;
+}
+.divide_text{
+    font-weight: normal;
+    font-size: 17px;
+    color: #555555;
+    margin-top: 55px;
+
+}
+.logo > img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 53px;
+}

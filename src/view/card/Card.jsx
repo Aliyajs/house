@@ -1,21 +1,46 @@
-import { Link } from '@material-ui/core';
+import { Link } from 'react-router-dom';
 import React from 'react';
-import css from './Card.module.css'
+import css from './Card.module.css';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css'; 
+import 'slick-carousel/slick/slick-theme.css';
+import { useEffect, useState } from "react";
 
-function Card() {
+function Card(props) {
+    const settings = {
+        autoplaySpeed: 2000,
+        dots: false,
+        infinite: true,
+        speed: 2000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+      };
     return (
-        <div className={css.container}>
-            <div className={css.card}>
-            <img className={css.card__img} src="https://cdn.vox-cdn.com/thumbor/zVuv0s-NzoqRQef_zb91-X8sT88=/0x0:1800x1168/1200x800/filters:focal(733x429:1021x717)/cdn.vox-cdn.com/uploads/chorus_image/image/63048549/logan_apartments.6.jpg" alt="" />
-            <div className={css.card__text}>
-            <p>Roselands House</p>
-            <p>$ 35.000.000</p>
-            <p>3-ком.кв.,600м2,35 этаж из 50</p>
-            <p>г.Бишкек</p>
-            </div>
-            <Link to="/card">
-                <a className={css.deteil} href="">Подробнее -> </a>
-            </Link>
+             <div className={css.container}>
+            <div className={css.boxs}>
+                <div className={css.card}>
+                    <Slider {...settings} className={css.slider}>
+                        <div>
+                        <img className={css.card__img} src={props.imageUrl} alt="" />
+                        </div>
+                        <div>
+                          <img className={css.card__img} src={props.image} alt="" />
+                        </div>
+                        <div>
+                           <img className={css.card__img} src={props.images} alt="" />
+                        </div>
+                    </Slider>
+                    <div className={css.card__text}>
+                        <p>{props.title}</p>
+                        <p>{props.price}</p>
+                        <p>{props.holl}</p>
+                        <p>{props.citi}</p>
+                    </div>
+                    <Link className={css.deteil} to={`/cardmap/${props.id}`} >
+                      <p>Подробнее &rarr;  </p>
+                    </Link>
+                </div>
             </div>
         </div>
     )

@@ -16,6 +16,7 @@ function Help() {
           личный кабинет.
         </p>
       </div>
+      <hr className={css.line} />
       <div className={css.auto}>
         <p className={css.reg}>
           Какие преимумещества личного кабинета и авторизации?
@@ -28,6 +29,7 @@ function Help() {
           синхронизация: избранных объявлений, добавленных объявлений.
         </p>
       </div>
+      <hr className={css.line}/>
       <div className={css.regulation}>
         <p className={css.reg}>Как добавить объявление и есть ли правила?</p>
         <p className={css.text}>
@@ -49,6 +51,7 @@ function Help() {
         </p>
       </div>
       <div>
+        <hr className={css.line} />
         <p className={css.reg}>Как удалить объявление</p>
         <p className={css.text}>
           Удалить объявление можно через Личный кабинет, зайдя под логином,
@@ -58,6 +61,7 @@ function Help() {
         </p>
       </div>
       <div>
+        <hr className={css.line}/>
         <p className={css.reg}>Почему я не могу найти свое объявление</p>
         <p className={css.text}>
           Т.к. мы внимательно следим за качеством опубликованных у нас на
@@ -67,6 +71,7 @@ function Help() {
         </p>
       </div>
       <div>
+        <hr className={css.line}/>
         <p className={css.reg}>Почему я не могу добавить фото к обьявлению</p>
         <p className={css.text}>
           Возможно, у вас недостаточное качество интернета. Попробуйте,
@@ -75,6 +80,7 @@ function Help() {
           объявлению.
         </p>
       </div>
+      <hr className={css.line}/>
     </div>
   );
 }

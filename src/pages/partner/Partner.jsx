@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-import css from './Partner.module.css'
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css'; 
+import 'slick-carousel/slick/slick-theme.css';
+import css from './Partner.module.css';
 
 
 
 export default function Partner(){
     const settings = {
-        autoplaySpeed: 5000,
+        autoplaySpeed: 1100,
         dots: true,
         infinite: true,
         speed: 2000,
@@ -114,8 +114,32 @@ export default function Partner(){
                 </div>
             </div>
           </div>
-          
         </Slider>
+        <h1 className={css.name}>Партнерские программы</h1>
+            <div className={css.boxs}>
+                <div className={css.wraper}>
+                    <h3 className={css.title}>Агентская программа</h3>
+                    <p className={css.tema}>Рекомендация недвижимости компании CasHome <br /> дает возможность потенциальным клиентам <br /> получить бонус. Программа действует только при <br /> успешной сделке. <br />
+                     Это позволяет заработать 2 способами: наличными <br /> денежными средствами до $ 3000 или баллами на <br /> приобретение квартиры.</p>
+                </div>
+                <img className={css.images} src="./img/investors.jpg" alt="" />
+            </div>
+
+            <div className={css.boxs}>
+            <img className={css.images} src="./img/investors2.jpg" alt="" />
+            <div className={css.wrapper}>
+                <h3 className={css.title}>Программа «Купим участки»</h3>
+                <p className={css.tema}>Продажа своего участка или рекомендация продаваемой площади позволяет заработать 1-3% от стоимости участка при запуске строительства или квадратные метры в строящемся объекте.</p>
+            </div>
+            </div>
+
+            <div className={css.boxs}>
+                <div className={css.wraper}>
+                    <h3 className={css.title}>Программа «Приведи инвестора»</h3>
+                    <p className={css.tema}>позволяет заработать от 1% — 3% от <br /> инвестиционного вклада.</p>
+                </div>
+                <img className={css.images} src="./img/investors3.jpg" alt="" />
+            </div>
         </div>
     );
 }

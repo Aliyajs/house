@@ -21,6 +21,10 @@
     display: flex;
     grid-gap: 14px;
 }
+.header__right > a{
+    text-decoration: none;
+    color: #000;
+}
 .text{
     font-size: 17px;
     line-height: 17px;
